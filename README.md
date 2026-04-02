@@ -1,1 +1,1 @@
-# embdded_systems_number_recogniser
+# Number Recogniser with Lattice Diamond board
