@@ -1,0 +1,14 @@
+# --- Lattice Diamond temporary files ---
+*/impl1/
+*/synwork/
+*.srf
+*.srr
+*.dir
+*.log
+*.p2t
+*.mdf
+*.edi
+*.vhd
+*.syn
+*.bgn
+*.bgx
