@@ -1,0 +1,143 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: /opt/Lattice/synpbase
+OS: Ubuntu 24.04.4 LTS
+Hostname: curzel-vm-1
+max virtual memory: unlimited (bytes)
+max user processes: 128182
+max stack size: 8388608 (bytes)
+
+
+Implementation : impl1
+
+# Written on Wed Jun 10 15:16:48 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "RAW10toParallel"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                          Ending                            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                            System                            |     0.204            |     No paths         |     No paths         |     No paths                         
+System                            RAW10toParallel|CSI2_sens_clk     |     2.882            |     No paths         |     No paths         |     No paths                         
+System                            RAW10toParallel|clk_i             |     No paths         |     No paths         |     No paths         |     2.755                            
+RAW10toParallel|CSI2_sens_clk     System                            |     2.882            |     No paths         |     No paths         |     No paths                         
+RAW10toParallel|CSI2_sens_clk     RAW10toParallel|CSI2_sens_clk     |     2.882            |     No paths         |     No paths         |     No paths                         
+RAW10toParallel|clk_i             System                            |     No paths         |     No paths         |     2.755            |     No paths                         
+RAW10toParallel|clk_i             RAW10toParallel|clk_i             |     2.755            |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CSI2_sens_data[0]
+p:CSI2_sens_data[1]
+p:CSI2_sens_data[2]
+p:CSI2_sens_data[3]
+p:CSI2_sens_data[4]
+p:CSI2_sens_data[5]
+p:CSI2_sens_data[6]
+p:CSI2_sens_data[7]
+p:CSI2_sens_data[8]
+p:CSI2_sens_data[9]
+p:CSI2_sens_fv
+p:CSI2_sens_lv
+p:HDMI_scl
+p:HDMI_sda
+p:data_enable
+p:hsync
+p:pix_blue[0]
+p:pix_blue[1]
+p:pix_blue[2]
+p:pix_blue[3]
+p:pix_blue[4]
+p:pix_blue[5]
+p:pix_blue[6]
+p:pix_blue[7]
+p:pix_blue[8]
+p:pix_blue[9]
+p:pix_blue[10]
+p:pix_blue[11]
+p:pix_green[0]
+p:pix_green[1]
+p:pix_green[2]
+p:pix_green[3]
+p:pix_green[4]
+p:pix_green[5]
+p:pix_green[6]
+p:pix_green[7]
+p:pix_green[8]
+p:pix_green[9]
+p:pix_green[10]
+p:pix_green[11]
+p:pix_red[0]
+p:pix_red[1]
+p:pix_red[2]
+p:pix_red[3]
+p:pix_red[4]
+p:pix_red[5]
+p:pix_red[6]
+p:pix_red[7]
+p:pix_red[8]
+p:pix_red[9]
+p:pix_red[10]
+p:pix_red[11]
+p:q
+p:reset_crosslink
+p:reset_n
+p:reset_sensor
+p:scl
+p:scl2
+p:sda
+p:sda2
+p:vsync
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

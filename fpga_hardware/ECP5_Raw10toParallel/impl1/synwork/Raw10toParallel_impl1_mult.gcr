@@ -1,0 +1,131 @@
+i clk_i
+m 0 0
+u 108 308
+p {p:clk_i}{t:i2c_inst.clk_i}{p:i2c_inst.clk_i}{t:i2c_inst.count[28:0].C}
+e ckid0_0 {t:i2c_inst.count[28:0].C} dffr
+c ckid0_0 {p:clk_i} port Unsupported/too complex instance on clock path
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.un1_step_cnt_6_i_uclk
+m 0 0
+u 24 24
+n ckid0_1 {t:hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.addr_dev[6].C} Derived clock on input (not legal for GCC)
+p {t:hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.un1_step_cnt_6_uclk.OUT}{t:hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.addr_dev[6].C}
+e ckid0_1 {t:hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.addr_dev[6].C} lat
+d ckid0_1 {t:hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.un1_step_cnt_6_uclk.OUT} or Derived clock on input (not legal for GCC)
+i i2c_inst.i2c_ctrl_inst2.un1_step_cnt_4_i_uclk
+m 0 0
+u 32 32
+n ckid0_2 {t:i2c_inst.i2c_ctrl_inst2.addr_dev[6].C} Derived clock on input (not legal for GCC)
+p {t:i2c_inst.i2c_ctrl_inst2.un1_step_cnt_4_uclk.OUT}{t:i2c_inst.i2c_ctrl_inst2.addr_dev[6].C}
+e ckid0_2 {t:i2c_inst.i2c_ctrl_inst2.addr_dev[6].C} lat
+d ckid0_2 {t:i2c_inst.i2c_ctrl_inst2.un1_step_cnt_4_uclk.OUT} or Derived clock on input (not legal for GCC)
+i i2c_inst.i2c_ctrl_inst.un1_step_cnt_4_i_uclk
+m 0 0
+u 32 32
+n ckid0_3 {t:i2c_inst.i2c_ctrl_inst.addr_dev[6].C} Derived clock on input (not legal for GCC)
+p {t:i2c_inst.i2c_ctrl_inst.un1_step_cnt_4_uclk.OUT}{t:i2c_inst.i2c_ctrl_inst.addr_dev[6].C}
+e ckid0_3 {t:i2c_inst.i2c_ctrl_inst.addr_dev[6].C} lat
+d ckid0_3 {t:i2c_inst.i2c_ctrl_inst.un1_step_cnt_4_uclk.OUT} or Derived clock on input (not legal for GCC)
+i CSI2_sens_clk
+m 0 0
+u 227 701
+p {p:CSI2_sens_clk}{t:pix_red[11:0].C}
+e ckid0_4 {t:pix_red[11:0].C} dffr
+c ckid0_4 {p:CSI2_sens_clk} port Unsupported/too complex instance on clock path
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[11]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[10]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[9]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[8]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[7]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[6]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[5]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[0]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[4]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[3]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[2]
+m 0 0
+u 0 0
+i hdmi_i2c_top_inst.hdmi_i2c_ctrl_inst.step_cnt[1]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[11]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[10]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[9]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[8]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[7]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[5]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[3]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[2]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[6]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst2.step_cnt[4]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[11]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[10]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[9]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[8]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[7]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[5]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[3]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[2]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[6]
+m 0 0
+u 0 0
+i i2c_inst.i2c_ctrl_inst.step_cnt[4]
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

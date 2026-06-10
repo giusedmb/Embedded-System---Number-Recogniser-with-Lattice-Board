@@ -1,0 +1,26 @@
+#List of actual used RTLs.
+
+File                                                                                                                                         Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v"                                     verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_top.v"                                        verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v"                                       verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v"                                       verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v"                                             verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v"                                            verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v"                                            verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/image_pipe.v"                                          verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/gamma_correction.v"                                    verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v"                                 verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v"      verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/color.v"                                               verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v"                                     verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v"               verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v"                verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v"                                             verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v"          verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/ab.v"                                                  verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v"                       verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v"                  verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v"                                 verilog                      IN PROJECT
+"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v"                              verilog                      IN PROJECT

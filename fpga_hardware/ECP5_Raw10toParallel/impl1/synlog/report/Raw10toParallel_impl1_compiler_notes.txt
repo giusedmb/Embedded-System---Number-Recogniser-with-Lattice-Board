@@ -1,0 +1,96 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG334 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v":3:13:3:24|Read directive translate_on.
+@N: CG334 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v":3:13:3:24|Read directive translate_on.
+@N: CG334 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v":3:13:3:24|Read directive translate_on.
+@N: CG334 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v":3:13:3:24|Read directive translate_on.
+@N|stack limit increased to max
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":39:7:39:28|Synthesizing module hardware_preprocessing in library work.
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":457:4:457:9|Found RAM buf_out, depth=784, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":394:4:394:9|Found RAM buf_pool1, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":261:4:261:9|Found RAM buf_bin, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":439:4:439:9|Found RAM buf_pool2, depth=3136, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":439:4:439:9|Found RAM buf_pool2, depth=3136, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":439:4:439:9|Found RAM buf_pool2, depth=3136, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":439:4:439:9|Found RAM buf_pool2, depth=3136, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":417:4:417:9|Found RAM buf_dil2, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":417:4:417:9|Found RAM buf_dil2, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":417:4:417:9|Found RAM buf_dil2, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":417:4:417:9|Found RAM buf_dil2, depth=12544, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":351:4:351:9|Found RAM buf_dil1, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":351:4:351:9|Found RAM buf_dil1, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":351:4:351:9|Found RAM buf_dil1, depth=50176, width=1
+@N: CL134 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":351:4:351:9|Found RAM buf_dil1, depth=50176, width=1
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v":34:7:34:25|Synthesizing module blanking_adjustment in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":25:7:25:10|Synthesizing module AND2 in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":367:7:367:9|Synthesizing module INV in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":810:7:810:10|Synthesizing module XOR2 in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":710:7:710:14|Synthesizing module ROM16X1A in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":866:7:866:12|Synthesizing module DP16KD in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":119:7:119:13|Synthesizing module FD1P3DX in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":160:7:160:13|Synthesizing module FD1S3BX in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":168:7:168:13|Synthesizing module FD1S3DX in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":76:7:76:11|Synthesizing module CCU2C in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+@N: CG364 :"/opt/Lattice/synpbase/lib/lucent/ecp5u.v":458:7:458:11|Synthesizing module MUX21 in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v":8:7:8:13|Synthesizing module sc_fifo in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v":11:7:11:16|Synthesizing module image_fifo in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/ab.v":34:7:34:8|Synthesizing module ab in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v":8:7:8:19|Synthesizing module debayer_dpram in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":34:7:34:13|Synthesizing module debayer in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v":1:7:1:16|Synthesizing module colorspace in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v":3:7:3:20|Synthesizing module colorspace_top in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v":11:7:11:9|Synthesizing module CSC in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/color.v":34:7:34:11|Synthesizing module color in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v":1:7:1:20|Synthesizing module gammaCorrector in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v":11:7:11:11|Synthesizing module Gamma in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/gamma_correction.v":34:7:34:22|Synthesizing module gamma_correction in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/image_pipe.v":34:7:34:16|Synthesizing module image_pipe in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v":11:7:11:14|Synthesizing module i2c_ctrl in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v":14:7:14:14|Synthesizing module i2c_core in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v":13:7:13:13|Synthesizing module i2c_top in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v":11:7:11:19|Synthesizing module hdmi_i2c_ctrl in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v":14:7:14:19|Synthesizing module hdmi_i2c_core in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_top.v":13:7:13:18|Synthesizing module hdmi_i2c_top in library work.
+@N: CG364 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v":35:7:35:21|Synthesizing module RAW10toParallel in library work.
+@N: CL201 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v":249:3:249:8|Trying to extract state machine for register i2c_cs.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v":23:21:23:30|Input addr_reg_L is unused.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v":25:21:25:29|Input data_wr_L is unused.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v":21:21:21:28|Input data_rdy is unused.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v":22:21:22:27|Input data_rd is unused.
+@N: CL201 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v":249:3:249:8|Trying to extract state machine for register i2c_cs.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v":25:21:25:29|Input data_wr_L is unused.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v":21:21:21:28|Input data_rdy is unused.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v":22:21:22:27|Input data_rd is unused.
+@N: CL135 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":230:0:230:5|Found sequential shift select3 with address depth of 3 words and data bit width of 2.
+@N: CL189 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":200:0:200:5|Register bit C[12] is always 0.
+@N: CL189 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":200:0:200:5|Register bit N[12] is always 0.
+@N: CL189 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":200:0:200:5|Register bit S[12] is always 0.
+@N: CL135 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":275:0:275:5|Found sequential shift de with address depth of 3 words and data bit width of 1.
+@N: CL135 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":275:0:275:5|Found sequential shift hsync with address depth of 3 words and data bit width of 1.
+@N: CL135 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":275:0:275:5|Found sequential shift vsync with address depth of 3 words and data bit width of 1.
+@N: CL159 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v":47:30:47:31|Input fv is unused.
+@N: CL201 :"/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v":186:4:186:9|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

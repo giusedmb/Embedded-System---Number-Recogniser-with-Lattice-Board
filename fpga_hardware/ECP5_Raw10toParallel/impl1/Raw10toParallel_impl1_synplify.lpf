@@ -1,0 +1,26 @@
+#
+# Logical Preferences generated for Lattice by Synplify map202309lat, Build 191R.
+#
+
+# Period Constraints 
+#FREQUENCY PORT "CSI2_sens_clk" 194.9 MHz;
+#FREQUENCY PORT "clk_i" 160.1 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "clk_i_c" TO CLKNET "CSI2_sens_clk_c";
+#BLOCK PATH FROM CLKNET "CSI2_sens_clk_c" TO CLKNET "clk_i_c";
+#BLOCK PATH FROM CLKNET "clk_i_c" TO CLKNET "CSI2_sens_clk_c";
+#BLOCK PATH FROM CLKNET "CSI2_sens_clk_c" TO CLKNET "clk_i_c";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

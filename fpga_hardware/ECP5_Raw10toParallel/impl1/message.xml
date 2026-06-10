@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already ###########################################################[</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already ###########################################################[</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>UI147 |File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v&quot;</Dynamic>
+            <Navigation>UI147</Navigation>
+            <Navigation>File already exists in project: &quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:228:7:228:12|Net select is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>228</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>228</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Net select is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:93:8:93:13|Net scl_in is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Net scl_in is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:94:8:94:13|Net sda_in is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>94</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>94</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Net sda_in is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:153:10:153:20|Net i2c_rqt_pos is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>153</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>153</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Net i2c_rqt_pos is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:167:10:167:19|Net timer_125u is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>167</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>167</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net timer_125u is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_top.v&quot;:65:7:65:17|Net i2c_data_rd is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_top.v</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Net i2c_data_rd is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:93:8:93:13|Net scl_in is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Net scl_in is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:94:8:94:13|Net sda_in is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>94</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>94</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Net sda_in is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:153:10:153:20|Net i2c_rqt_pos is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>153</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>153</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Net i2c_rqt_pos is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:167:10:167:19|Net timer_125u is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>167</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>167</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net timer_125u is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v&quot;:36:10:36:12|Net clk is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Net clk is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1337 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v&quot;:150:7:150:17|Net i2c_data_rd is not declared.</Dynamic>
+            <Navigation>CG1337</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v</Navigation>
+            <Navigation>150</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>150</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Net i2c_data_rd is not declared.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG274 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v&quot;:5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Dynamic>
+            <Navigation>CG274</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG274 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v&quot;:5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Dynamic>
+            <Navigation>CG274</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG274 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v&quot;:5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Dynamic>
+            <Navigation>CG274</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG274 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v&quot;:5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Dynamic>
+            <Navigation>CG274</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v&quot;:70:4:70:9|Pruning unused register fv_cnt[11:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register fv_cnt[11:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v&quot;:70:4:70:9|Pruning unused register q_fv. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register q_fv. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/ab.v&quot;:133:0:133:5|Pruning unused bits 24 to 12 of q_data_gain_shift[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/ab.v</Navigation>
+            <Navigation>133</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>133</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 24 to 12 of q_data_gain_shift[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v&quot;:24:8:24:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:230:0:230:5|Pruning unused register select4[1:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>230</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>230</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register select4[1:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:70:0:70:5|Pruning unused register fv_r. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register fv_r. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:246:0:246:5|Pruning unused bits 1 to 0 of r_data_out_r[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 1 to 0 of r_data_out_r[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:246:0:246:5|Pruning unused bits 1 to 0 of g_data_out_r[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 1 to 0 of g_data_out_r[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:246:0:246:5|Pruning unused bits 1 to 0 of b_data_out_r[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>246</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 1 to 0 of b_data_out_r[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Optimizing register bit NW[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit NW[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Optimizing register bit NW[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit NW[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Optimizing register bit SW[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit SW[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Optimizing register bit SW[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit SW[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Optimizing register bit W[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit W[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Optimizing register bit W[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit W[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Pruning register bits 13 to 12 of NW[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 13 to 12 of NW[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Pruning register bits 13 to 12 of SW[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 13 to 12 of SW[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:168:0:168:5|Pruning register bits 13 to 12 of W[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 13 to 12 of W[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG146 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v&quot;:1:7:1:16|Creating black box for empty module colorspace</Dynamic>
+            <Navigation>CG146</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Creating black box for empty module colorspace</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG146 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v&quot;:1:7:1:20|Creating black box for empty module gammaCorrector</Dynamic>
+            <Navigation>CG146</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Creating black box for empty module gammaCorrector</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v&quot;:20:21:20:29|Object data_wr_L is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Object data_wr_L is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v&quot;:67:9:67:12|Latch generated from always block for signal data_wr_H[7:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal data_wr_H[7:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v&quot;:67:9:67:12|Latch generated from always block for signal addr_reg_L[7:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal addr_reg_L[7:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v&quot;:67:9:67:12|Latch generated from always block for signal addr_reg_H[7:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal addr_reg_H[7:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v&quot;:67:9:67:12|Latch generated from always block for signal addr_dev[6:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal addr_dev[6:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v&quot;:67:9:67:12|Latch generated from always block for signal cmd; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal cmd; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:208:3:208:8|Pruning unused register data_wr_tmp[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>208</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>208</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register data_wr_tmp[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:106:3:106:8|Pruning unused register cnt_byte[3:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register cnt_byte[3:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v&quot;:18:21:18:30|Object addr_reg_L is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Object addr_reg_L is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v&quot;:20:21:20:29|Object data_wr_L is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Object data_wr_L is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v&quot;:68:9:68:12|Latch generated from always block for signal data_wr_H[7:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal data_wr_H[7:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v&quot;:68:9:68:12|Latch generated from always block for signal addr_reg_H[7:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal addr_reg_H[7:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v&quot;:68:9:68:12|Latch generated from always block for signal addr_dev[6:0]; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal addr_dev[6:0]; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL118 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v&quot;:68:9:68:12|Latch generated from always block for signal cmd; possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL118</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Latch generated from always block for signal cmd; possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:208:3:208:8|Pruning unused register data_wr_tmp[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>208</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>208</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register data_wr_tmp[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:106:3:106:8|Pruning unused register cnt_byte[3:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register cnt_byte[3:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:156:3:156:8|Optimizing register bit cnt_1bit[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit cnt_1bit[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:156:3:156:8|Optimizing register bit cnt_1bit[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit cnt_1bit[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:156:3:156:8|Pruning register bits 9 to 8 of cnt_1bit[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning register bits 9 to 8 of cnt_1bit[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:213:3:213:8|Optimizing register bit data_rdy to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>213</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>213</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rdy to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Optimizing register bit data_rd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit data_rd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:222:3:222:8|Pruning unused register data_rd[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>222</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register data_rd[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v&quot;:213:3:213:8|Pruning unused register data_rdy. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v</Navigation>
+            <Navigation>213</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>213</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning unused register data_rdy. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:156:3:156:8|Optimizing register bit cnt_1bit[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit cnt_1bit[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:156:3:156:8|Optimizing register bit cnt_1bit[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Optimizing register bit cnt_1bit[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v&quot;:156:3:156:8|Pruning register bits 9 to 8 of cnt_1bit[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>156</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Pruning register bits 9 to 8 of cnt_1bit[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/image_pipe.v&quot;:40:23:40:29|Input port bits 1 to 0 of pixdata[11:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/image_pipe.v</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Input port bits 1 to 0 of pixdata[11:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:103:0:103:5|Optimizing register bit linecnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit linecnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:103:0:103:5|Pruning register bit 11 of linecnt[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 11 of linecnt[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bit 13 of S[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 13 of S[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bit 13 of N[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 13 of N[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bit 13 of C[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 13 of C[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Optimizing register bit E[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit E[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Optimizing register bit E[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit E[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Optimizing register bit NE[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit NE[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Optimizing register bit NE[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit NE[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Optimizing register bit SE[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit SE[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Optimizing register bit SE[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit SE[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bits 13 to 12 of E[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 13 to 12 of E[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bits 13 to 12 of NE[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 13 to 12 of NE[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bits 13 to 12 of SE[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 13 to 12 of SE[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bit 12 of C[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 12 of C[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bit 12 of N[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 12 of N[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v&quot;:200:0:200:5|Pruning register bit 12 of S[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 12 of S[12:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v&quot;:70:4:70:9|Optimizing register bit linecnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Optimizing register bit linecnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v&quot;:70:4:70:9|Pruning register bit 11 of linecnt[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 11 of linecnt[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>
