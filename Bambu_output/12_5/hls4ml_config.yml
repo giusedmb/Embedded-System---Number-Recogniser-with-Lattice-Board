@@ -1,0 +1,96 @@
+Backend: Bambu
+ClockPeriod: 40
+ClockUncertainty: 12.5%
+FPGAFamily: Xilinx
+HLSConfig:
+  LayerName:
+    conv1:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 25
+      Strategy: Resource
+      Trace: false
+    conv1_input:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 8
+      Strategy: Resource
+      Trace: false
+    conv1_relu:
+      Precision:
+        result: auto
+      Trace: false
+    conv2:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 150
+      Strategy: Resource
+      Trace: false
+    conv2_relu:
+      Precision:
+        result: auto
+      Trace: false
+    fc1:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 128
+      Strategy: Resource
+      Trace: false
+    fc1_relu:
+      Precision:
+        result: auto
+      Trace: false
+    fc2:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 84
+      Strategy: Resource
+      Trace: false
+    fc2_relu:
+      Precision:
+        result: auto
+      Trace: false
+    flatten:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 8
+      Strategy: Resource
+      Trace: false
+    output:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 84
+      Strategy: Resource
+      Trace: false
+    pool1:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 1
+      Strategy: Resource
+      Trace: false
+    pool2:
+      Precision: ap_fixed<12,5>
+      ReuseFactor: 1
+      Strategy: Resource
+      Trace: false
+  Model:
+    BitExact: null
+    BramFactor: 1000000000
+    Precision: ap_fixed<12,5>
+    ReuseFactor: 8
+    Strategy: Resource
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+InputShapes:
+  conv1_input:
+  - 28
+  - 28
+  - 1
+KerasModel: !keras_model '12_5/keras_model.keras'
+OutputDir: '12_5'
+OutputPredictions: null
+OutputShapes:
+  layer13_out:
+  - 10
+Part: xc7a100tcsg324-1
+ProjectName: myproject
+Stamp: '59913825'
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  TBOutputStream: both
+  WriteTar: false
+  WriteWeightsTxt: true

@@ -14,3 +14,5 @@
 *.bgx
 fpga_hardware/ECP5_Raw10toParallel/impl1/synlog/Raw10toParallel_impl1_fpga_mapper.srr.db
 fpga_hardware/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_warnings.txt
+Bambu_output/
+*.gch
