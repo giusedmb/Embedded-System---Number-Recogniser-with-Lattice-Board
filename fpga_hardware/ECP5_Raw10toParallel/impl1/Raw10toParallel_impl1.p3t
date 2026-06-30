@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Raw10toParallel_impl1.log"
+-o "Raw10toParallel_impl1.csv"
+-pr "Raw10toParallel_impl1.prf"

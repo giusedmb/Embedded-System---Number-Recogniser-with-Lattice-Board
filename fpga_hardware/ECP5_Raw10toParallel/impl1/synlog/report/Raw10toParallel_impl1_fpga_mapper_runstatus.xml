@@ -5,42 +5,42 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/synlog/Raw10toParallel_impl1_fpga_mapper.srr</data>
+<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synlog/Raw10toParallel_impl1_fpga_mapper.srr</data>
 <title></title>
 </report_link>
 <job_status>
-<data>Running</data>
+<data>Completed</data>
 </job_status>
 <job_info>
 <info name="Notes">
-<data>51</data>
+<data>68</data>
 <report_link name="more">
-<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_notes.txt</data>
+<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>531</data>
+<data>2373</data>
 <report_link name="more">
-<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_warnings.txt</data>
+<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_errors.txt</data>
+<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synlog/report/Raw10toParallel_impl1_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:14s</data>
+<data>0h:00m:28s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:14s</data>
+<data>0h:00m:27s</data>
 </info>
 <info name="Peak Memory">
-<data>546MB</data>
+<data>619MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1781104622</data>
+<data type="timestamp">1782749280</data>
 </info>
 </job_info>
 </job_run_status>

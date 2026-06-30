@@ -2,14 +2,14 @@
 <!-- 
   Synopsys, Inc.
   Version V-2023.09L-2
-  Project file /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/syntmp/run_option.xml
-  Written on Wed Jun 10 15:16:40 2026
+  Project file /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/syntmp/run_option.xml
+  Written on Mon Jun 29 16:07:23 2026
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
      <option name="project_name" display_name="Project Name">proj_1</option>
-     <option name="device_name" display_name="Device Name">impl1: Lattice ECP5U : LFE5U_85F</option>
+     <option name="device_name" display_name="Device Name">impl1: Lattice ECP5UM : LFE5UM_85F</option>
      <option name="impl_name" display_name="Implementation Name">impl1</option>
      <option name="top_module" display_name="Top Module">RAW10toParallel</option>
      <option name="pipe" display_name="Pipelining">1</option>

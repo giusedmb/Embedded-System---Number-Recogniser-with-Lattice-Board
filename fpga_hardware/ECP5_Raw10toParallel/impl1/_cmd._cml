@@ -1,1 +1,1 @@
--link -encrypt -top RAW10toParallel -osyn "/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/synwork/Raw10toParallel_impl1_comp.srs" "/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/synwork/layer0.srs"  -jobname linker  
+-link -encrypt -top RAW10toParallel -osyn /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synwork/Raw10toParallel_impl1_comp.srs /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synwork/layer0.srs  -jobname linker  

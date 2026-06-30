@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1781104600>
+<!@TC:1782749243>
 
 Copyright (C) 1994-2023 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -18,7 +18,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : impl1
 
-# Written on Wed Jun 10 15:16:48 2026
+# Written on Mon Jun 29 16:07:31 2026
 
 ##### DESIGN INFO #######################################################
 
@@ -42,19 +42,19 @@ Clock Relationships
 
 Starting                          Ending                            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                            System                            |     0.204            |     No paths         |     No paths         |     No paths                         
-System                            RAW10toParallel|CSI2_sens_clk     |     2.882            |     No paths         |     No paths         |     No paths                         
-System                            RAW10toParallel|clk_i             |     No paths         |     No paths         |     No paths         |     2.755                            
-RAW10toParallel|CSI2_sens_clk     System                            |     2.882            |     No paths         |     No paths         |     No paths                         
-RAW10toParallel|CSI2_sens_clk     RAW10toParallel|CSI2_sens_clk     |     2.882            |     No paths         |     No paths         |     No paths                         
-RAW10toParallel|clk_i             System                            |     No paths         |     No paths         |     2.755            |     No paths                         
-RAW10toParallel|clk_i             RAW10toParallel|clk_i             |     2.755            |     No paths         |     No paths         |     No paths                         
+System                            System                            |     0.170            |     No paths         |     No paths         |     No paths                         
+System                            RAW10toParallel|CSI2_sens_clk     |     4.363            |     No paths         |     No paths         |     No paths                         
+System                            RAW10toParallel|clk_i             |     No paths         |     No paths         |     No paths         |     2.451                            
+RAW10toParallel|CSI2_sens_clk     System                            |     4.363            |     No paths         |     No paths         |     No paths                         
+RAW10toParallel|CSI2_sens_clk     RAW10toParallel|CSI2_sens_clk     |     4.363            |     No paths         |     No paths         |     No paths                         
+RAW10toParallel|clk_i             System                            |     No paths         |     No paths         |     2.451            |     No paths                         
+RAW10toParallel|clk_i             RAW10toParallel|clk_i             |     2.451            |     No paths         |     No paths         |     No paths                         
 ===============================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
 
-<a name=UnconstrainedStartEndPointsCCK18></a>Unconstrained Start/End Points</a>
+<a name=UnconstrainedStartEndPointsCCK36></a>Unconstrained Start/End Points</a>
 ******************************
 
 p:CSI2_sens_data[0]
@@ -120,25 +120,25 @@ p:sda2
 p:vsync
 
 
-<a name=InapplicableconstraintsCCK19></a>Inapplicable constraints</a>
+<a name=InapplicableconstraintsCCK37></a>Inapplicable constraints</a>
 ************************
 
 (none)
 
 
-<a name=ApplicableConstraintsWithIssuesCCK20></a>Applicable constraints with issues</a>
+<a name=ApplicableConstraintsWithIssuesCCK38></a>Applicable constraints with issues</a>
 **********************************
 
 (none)
 
 
-<a name=ConstraintsWithMatchingWildcardExpressionsCCK21></a>Constraints with matching wildcard expressions</a>
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK39></a>Constraints with matching wildcard expressions</a>
 **********************************************
 
 (none)
 
 
-<a name=LibraryReportCCK22></a>Library Report</a>
+<a name=LibraryReportCCK40></a>Library Report</a>
 **************
 
 

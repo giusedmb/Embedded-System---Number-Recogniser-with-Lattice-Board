@@ -3,8 +3,8 @@
 #
 
 # Period Constraints 
-#FREQUENCY PORT "CSI2_sens_clk" 194.9 MHz;
-#FREQUENCY PORT "clk_i" 160.1 MHz;
+#FREQUENCY PORT "CSI2_sens_clk" 142.2 MHz;
+#FREQUENCY PORT "clk_i" 167.4 MHz;
 
 
 # Output Constraints 

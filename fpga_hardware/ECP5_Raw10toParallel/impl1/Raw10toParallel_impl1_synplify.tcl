@@ -2,10 +2,10 @@
 #-- Synplify OEM project file
 
 #device options
-set_option -technology ECP5U
-set_option -part LFE5U_85F
-set_option -package BG381C
-set_option -speed_grade -6
+set_option -technology ECP5UM
+set_option -part LFE5UM_85F
+set_option -package BG756C
+set_option -speed_grade -8
 
 #compilation/mapping options
 set_option -symbolic_fsm_compiler true
@@ -46,84 +46,84 @@ set_option -seqshift_no_replicate 0
 
 #-- add_file options
 set_option -hdl_define -set SBP_SYNTHESIS
-set_option -include_path {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/ab.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/gamma_correction.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/image_pipe.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/rb_ram/rb_ram.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/color.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v}
-add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v}
+set_option -include_path {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/ab.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/blanking_adjustment.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/debayer.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/gamma_correction.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_core.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_core.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_ctrl.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/rb_ram/rb_ram.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/color.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v}
+add_file -verilog -vlog_std v2001 {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hardware_preprocessing.v}
 
 #-- top module name
 set_option -top_module RAW10toParallel
 
 #-- set result format/file last
-project -result_file {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/impl1/Raw10toParallel_impl1.edi}
+project -result_file {/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/Raw10toParallel_impl1.edi}
 
 #-- error message log file
 project -log_file {Raw10toParallel_impl1.srf}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BaliProject version="3.2" title="Raw10toParallel" device="LFE5U-85F-6BG381C" default_implementation="impl1">
+<BaliProject version="3.2" title="Raw10toParallel" device="LFE5UM-85F-8BG756C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="hardware_preprocessing" top="RAW10toParallel"/>
+        <Options def_top="gammaCorrector_top" top="RAW10toParallel"/>
         <Source name="source/RAW10toParallel.v" type="Verilog" type_short="Verilog">
             <Options top_module="RAW10toParallel"/>
         </Source>

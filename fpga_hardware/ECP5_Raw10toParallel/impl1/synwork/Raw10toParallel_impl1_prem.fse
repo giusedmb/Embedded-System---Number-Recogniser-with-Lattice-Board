@@ -1,23 +1,23 @@
 
-fsm_encoding {2918641863} onehot
+fsm_encoding {29914913} onehot
 
-fsm_state_encoding {2918641863} S_IDLE {00000001}
+fsm_state_encoding {29914913} S_IDLE {00000001}
 
-fsm_state_encoding {2918641863} S_LOAD {00000010}
+fsm_state_encoding {29914913} S_LOAD {00000010}
 
-fsm_state_encoding {2918641863} S_DIL1 {00000100}
+fsm_state_encoding {29914913} S_DIL1 {00000100}
 
-fsm_state_encoding {2918641863} S_POOL1 {00001000}
+fsm_state_encoding {29914913} S_POOL1 {00001000}
 
-fsm_state_encoding {2918641863} S_DIL2 {00010000}
+fsm_state_encoding {29914913} S_DIL2 {00010000}
 
-fsm_state_encoding {2918641863} S_POOL2 {00100000}
+fsm_state_encoding {29914913} S_POOL2 {00100000}
 
-fsm_state_encoding {2918641863} S_POOL3 {01000000}
+fsm_state_encoding {29914913} S_POOL3 {01000000}
 
-fsm_state_encoding {2918641863} S_OUTPUT {10000000}
+fsm_state_encoding {29914913} S_OUTPUT {10000000}
 
-fsm_registers {2918641863} {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+fsm_registers {29914913} {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
 
 fsm_encoding {1324932492} onehot
 

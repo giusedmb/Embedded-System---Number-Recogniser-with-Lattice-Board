@@ -1,0 +1,72 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Jun 29 16:10:17 2026 *
+NOTE DESIGN NAME: RAW10toParallel *
+NOTE DEVICE NAME: LFE5UM-85F-8CABGA756 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS pix_red[0] : AE27 : out *
+NOTE PINS clk_i : E17 : in *
+NOTE PINS q : AG30 : out *
+NOTE PINS reset_crosslink : D13 : out *
+NOTE PINS reset_sensor : B4 : out *
+NOTE PINS HDMI_sda : AJ1 : out *
+NOTE PINS HDMI_scl : AG1 : out *
+NOTE PINS sda2 : B14 : out *
+NOTE PINS scl2 : A14 : out *
+NOTE PINS sda : F15 : out *
+NOTE PINS scl : D15 : out *
+NOTE PINS pixclk_out : E25 : out *
+NOTE PINS data_enable : C25 : out *
+NOTE PINS vsync : A25 : out *
+NOTE PINS hsync : D25 : out *
+NOTE PINS pix_blue[11] : AD32 : out *
+NOTE PINS pix_blue[10] : AC32 : out *
+NOTE PINS pix_blue[9] : AB32 : out *
+NOTE PINS pix_blue[8] : AC31 : out *
+NOTE PINS pix_blue[7] : V26 : out *
+NOTE PINS pix_blue[6] : V27 : out *
+NOTE PINS pix_blue[5] : U28 : out *
+NOTE PINS pix_blue[4] : T29 : out *
+NOTE PINS pix_blue[3] : W31 : out *
+NOTE PINS pix_blue[2] : Y32 : out *
+NOTE PINS pix_blue[1] : R32 : out *
+NOTE PINS pix_blue[0] : T31 : out *
+NOTE PINS pix_green[11] : T30 : out *
+NOTE PINS pix_green[10] : W30 : out *
+NOTE PINS pix_green[9] : Y26 : out *
+NOTE PINS pix_green[8] : W32 : out *
+NOTE PINS pix_green[7] : V32 : out *
+NOTE PINS pix_green[6] : AB31 : out *
+NOTE PINS pix_green[5] : AC30 : out *
+NOTE PINS pix_green[4] : T32 : out *
+NOTE PINS pix_green[3] : A24 : out *
+NOTE PINS pix_green[2] : R26 : out *
+NOTE PINS pix_green[1] : T26 : out *
+NOTE PINS pix_green[0] : AD26 : out *
+NOTE PINS pix_red[11] : F17 : out *
+NOTE PINS pix_red[10] : F25 : out *
+NOTE PINS pix_red[9] : W28 : out *
+NOTE PINS pix_red[8] : D24 : out *
+NOTE PINS pix_red[7] : Y27 : out *
+NOTE PINS pix_red[6] : AC26 : out *
+NOTE PINS pix_red[5] : AB27 : out *
+NOTE PINS pix_red[4] : AB28 : out *
+NOTE PINS pix_red[3] : AB30 : out *
+NOTE PINS pix_red[2] : AB29 : out *
+NOTE PINS pix_red[1] : AD27 : out *
+NOTE PINS CSI2_sens_data[9] : E11 : in *
+NOTE PINS CSI2_sens_data[8] : A10 : in *
+NOTE PINS CSI2_sens_data[7] : B10 : in *
+NOTE PINS CSI2_sens_data[6] : C10 : in *
+NOTE PINS CSI2_sens_data[5] : A9 : in *
+NOTE PINS CSI2_sens_data[4] : C9 : in *
+NOTE PINS CSI2_sens_data[3] : D9 : in *
+NOTE PINS CSI2_sens_data[2] : F9 : in *
+NOTE PINS CSI2_sens_data[1] : A8 : in *
+NOTE PINS CSI2_sens_data[0] : A13 : in *
+NOTE PINS CSI2_sens_lv : K26 : in *
+NOTE PINS CSI2_sens_fv : K27 : in *
+NOTE PINS CSI2_sens_clk : P27 : in *
+NOTE PINS reset_n : AH1 : in *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *

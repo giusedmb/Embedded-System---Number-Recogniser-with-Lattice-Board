@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/impl1/synlog/Raw10toParallel_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>RAW10toParallel|CSI2_sens_clk</data>
+<data>142.2 MHz</data>
+<data>120.9 MHz</data>
+<data>-1.241</data>
+</row>
+<row>
+<data>RAW10toParallel|clk_i</data>
+<data>167.4 MHz</data>
+<data>142.3 MHz</data>
+<data>-1.054</data>
+</row>
+<row>
+<data>System</data>
+<data>3314.6 MHz</data>
+<data>2816.9 MHz</data>
+<data>-0.053</data>
+</row>
+</report_table>

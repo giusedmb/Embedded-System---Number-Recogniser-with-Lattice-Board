@@ -27,7 +27,7 @@ e ckid0_3 {t:i2c_inst.i2c_ctrl_inst.addr_dev[6].C} lat
 d ckid0_3 {t:i2c_inst.i2c_ctrl_inst.un1_step_cnt_4_uclk.OUT} or Derived clock on input (not legal for GCC)
 i CSI2_sens_clk
 m 0 0
-u 227 701
+u 212 2564
 p {p:CSI2_sens_clk}{t:pix_red[11:0].C}
 e ckid0_4 {t:pix_red[11:0].C} dffr
 c ckid0_4 {p:CSI2_sens_clk} port Unsupported/too complex instance on clock path

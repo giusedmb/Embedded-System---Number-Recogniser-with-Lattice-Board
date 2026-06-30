@@ -17,95 +17,149 @@ max stack size: unlimited (bytes)
 Implementation : impl1
 Synopsys HDL compiler and linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:30:48, @5637152
 
-Modified Files: 2
+Modified Files: 30
 FID:  path (prevtimestamp, timestamp)
-0        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39)
-29       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v (N/A, 2026-06-10 15:07:28)
+0        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13)
+1        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/ab.v (N/A, 2026-06-27 16:55:33)
+2        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/blanking_adjustment.v (N/A, 2026-06-27 16:54:51)
+3        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v (N/A, 2026-06-27 16:55:16)
+4        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v (N/A, 2026-06-27 16:55:11)
+5        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v (N/A, 2026-06-27 16:55:10)
+6        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v (N/A, 2026-06-27 16:55:05)
+7        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v (N/A, 2026-06-27 16:55:03)
+8        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v (N/A, 2026-06-27 16:55:04)
+9        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v (N/A, 2026-06-27 16:55:31)
+10       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v (N/A, 2026-06-27 16:55:32)
+11       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/rb_ram/rb_ram.v (N/A, 2026-06-27 16:55:23)
+12       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v (N/A, 2026-06-27 16:55:23)
+13       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v (N/A, 2026-06-27 16:55:22)
+14       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/color.v (N/A, 2026-06-27 16:55:34)
+15       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/debayer.v (N/A, 2026-06-27 16:55:33)
+16       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/gamma_correction.v (N/A, 2026-06-27 16:54:52)
+17       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hardware_preprocessing.v (N/A, 2026-06-29 15:26:28)
+18       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_core.v (N/A, 2026-06-27 16:54:52)
+19       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v (N/A, 2026-06-27 16:55:33)
+20       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_top.v (N/A, 2026-06-27 16:54:52)
+21       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_core.v (N/A, 2026-06-27 16:54:52)
+22       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_ctrl.v (N/A, 2026-06-27 16:55:33)
+23       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_top.v (N/A, 2026-06-27 16:54:52)
+24       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53)
+25       /opt/Lattice/synpbase/lib/lucent/ecp5um.v (N/A, 2024-08-22 12:53:58)
+26       /opt/Lattice/synpbase/lib/lucent/pmi_def.v (N/A, 2024-09-23 15:26:27)
+27       /opt/Lattice/synpbase/lib/vlog/hypermods.v (N/A, 2024-09-23 15:26:55)
+28       /opt/Lattice/synpbase/lib/vlog/scemi_objects.v (N/A, 2024-09-23 15:26:55)
+29       /opt/Lattice/synpbase/lib/vlog/scemi_pipes.svh (N/A, 2024-09-23 15:26:55)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 22
+Modules that may have changed as a result of file changes: 25
 MID:  lib.cell.view
 0        work.CSC.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v (N/A, 2026-06-27 16:55:16) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/color.v (N/A, 2026-06-27 16:55:34) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 1        work.Gamma.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v (N/A, 2026-06-27 16:55:05) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/gamma_correction.v (N/A, 2026-06-27 16:54:52) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 2        work.RAW10toParallel.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (module definition)
 3        work.ab.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/ab.v (N/A, 2026-06-27 16:55:33) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 4        work.blanking_adjustment.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/blanking_adjustment.v (N/A, 2026-06-27 16:54:51) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 5        work.color.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/color.v (N/A, 2026-06-27 16:55:34) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 6        work.colorspace.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v (N/A, 2026-06-27 16:55:16) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v (N/A, 2026-06-27 16:55:11) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v (N/A, 2026-06-27 16:55:10) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/color.v (N/A, 2026-06-27 16:55:34) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 7        work.colorspace_top.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v (N/A, 2026-06-27 16:55:16) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v (N/A, 2026-06-27 16:55:10) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/color.v (N/A, 2026-06-27 16:55:34) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 8        work.debayer.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/debayer.v (N/A, 2026-06-27 16:55:33) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 9        work.debayer_dpram.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v (N/A, 2026-06-27 16:55:31) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v (N/A, 2026-06-27 16:55:32) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/debayer.v (N/A, 2026-06-27 16:55:33) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
+10       work.dp_ram.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v (N/A, 2026-06-27 16:55:32) <-- (module definition)
 11       work.gammaCorrector.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v (N/A, 2026-06-27 16:55:05) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v (N/A, 2026-06-27 16:55:03) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v (N/A, 2026-06-27 16:55:04) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/gamma_correction.v (N/A, 2026-06-27 16:54:52) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
+12       work.gammaCorrector_top.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v (N/A, 2026-06-27 16:55:04) <-- (module definition)
 13       work.gamma_correction.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-24       work.hardware_preprocessing.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hardware_preprocessing.v (N/A, 2026-06-10 15:07:28) <-- (module definition)
-14       work.hdmi_i2c_core.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-15       work.hdmi_i2c_ctrl.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-16       work.hdmi_i2c_top.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-17       work.i2c_core.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-18       work.i2c_ctrl.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-19       work.i2c_top.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-20       work.image_fifo.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-21       work.image_pipe.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
-23       work.sc_fifo.verilog may have changed because the following files changed:
-                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/RAW10toParallel.v (2026-06-10 14:52:48, 2026-06-10 15:16:39) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/gamma_correction.v (N/A, 2026-06-27 16:54:52) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
+14       work.hardware_preprocessing.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hardware_preprocessing.v (N/A, 2026-06-29 15:26:28) <-- (module definition)
+15       work.hdmi_i2c_core.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_core.v (N/A, 2026-06-27 16:54:52) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_top.v (N/A, 2026-06-27 16:54:52) <-- (may instantiate this module)
+16       work.hdmi_i2c_ctrl.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v (N/A, 2026-06-27 16:55:33) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_top.v (N/A, 2026-06-27 16:54:52) <-- (may instantiate this module)
+17       work.hdmi_i2c_top.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/hdmi_i2c_top.v (N/A, 2026-06-27 16:54:52) <-- (module definition)
+18       work.i2c_core.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_core.v (N/A, 2026-06-27 16:54:52) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_top.v (N/A, 2026-06-27 16:54:52) <-- (may instantiate this module)
+19       work.i2c_ctrl.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_ctrl.v (N/A, 2026-06-27 16:55:33) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_top.v (N/A, 2026-06-27 16:54:52) <-- (may instantiate this module)
+20       work.i2c_top.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/i2c_top.v (N/A, 2026-06-27 16:54:52) <-- (module definition)
+21       work.image_fifo.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v (N/A, 2026-06-27 16:55:23) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
+22       work.image_pipe.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (module definition)
+23       work.rb_ram.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v (N/A, 2026-06-27 16:55:32) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/dp_ram/rb_ram/rb_ram.v (N/A, 2026-06-27 16:55:23) <-- (module definition)
+24       work.sc_fifo.verilog may have changed because the following files changed:
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/RAW10toParallel.v (N/A, 2026-06-29 15:57:13) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v (N/A, 2026-06-27 16:55:23) <-- (may instantiate this module)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v (N/A, 2026-06-27 16:55:22) <-- (module definition)
+                        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo/ECP5_Raw10toParallel/source/image_pipe.v (N/A, 2026-06-27 16:54:53) <-- (may instantiate this module)
 
 *******************************************************************
-Unmodified files: 28
+Unmodified files: 0
 FID:  path (timestamp)
-1        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/ab.v (2026-06-10 14:52:56)
-2        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/blanking_adjustment.v (2026-06-10 14:52:48)
-3        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/CSC.v (2026-06-10 14:52:53)
-4        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_bb.v (2026-06-10 14:52:52)
-5        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/CSC/colorspace/colorspace_top.v (2026-06-10 14:52:52)
-6        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.v (2026-06-10 14:52:51)
-7        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_bb.v (2026-06-10 14:52:51)
-8        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/Gamma/gammaCorrector/gammaCorrector_top.v (2026-06-10 14:52:51)
-9        /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/debayer_dpram/debayer_dpram.v (2026-06-10 14:52:56)
-10       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.v (2026-06-10 14:52:56)
-11       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/dp_ram/rb_ram/rb_ram.v (2026-06-10 14:52:54)
-12       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.v (2026-06-10 14:52:54)
-13       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/clarity/image_fifo/sc_fifo/sc_fifo.v (2026-06-10 14:52:54)
-14       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/color.v (2026-06-10 14:52:56)
-15       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/debayer.v (2026-06-10 14:52:56)
-16       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/gamma_correction.v (2026-06-10 14:52:48)
-17       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_core.v (2026-06-10 14:52:48)
-18       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v (2026-06-10 14:52:56)
-19       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/hdmi_i2c_top.v (2026-06-10 14:52:48)
-20       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_core.v (2026-06-10 14:52:48)
-21       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_ctrl.v (2026-06-10 14:52:56)
-22       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/i2c_top.v (2026-06-10 14:52:48)
-23       /home/busacca/Dual_CSI-2_Camera_to_HDMI_Bridge_Demo 2/ECP5_Raw10toParallel/source/image_pipe.v (2026-06-10 14:52:48)
-24       /opt/Lattice/synpbase/lib/lucent/ecp5u.v (2024-08-22 12:53:58)
-25       /opt/Lattice/synpbase/lib/lucent/pmi_def.v (2024-09-23 15:26:27)
-26       /opt/Lattice/synpbase/lib/vlog/hypermods.v (2024-09-23 15:26:55)
-27       /opt/Lattice/synpbase/lib/vlog/scemi_objects.v (2024-09-23 15:26:55)
-28       /opt/Lattice/synpbase/lib/vlog/scemi_pipes.svh (2024-09-23 15:26:55)
 
 *******************************************************************
-Unchanged modules: 3
+Unchanged modules: 0
 MID:  lib.cell.view
-10       work.dp_ram.verilog
-12       work.gammaCorrector_top.verilog
-22       work.rb_ram.verilog

@@ -9,7 +9,7 @@
  			
 <table style="border:none;" width="100%" ><tr> <td class="outline">
 <table width="100%" border="0" cellspacing="0" cellpadding="0"> 	     <thead class="tablehead"><tr><th colspan="4">Project Settings</th><tr> 
- <tr> <td class="optionTitle" align="left"> Project Name</td> <td> proj_1</td> <td class="optionTitle" align="left"> Device Name</td> <td> impl1: Lattice ECP5U : LFE5U_85F</td> </tr>
+ <tr> <td class="optionTitle" align="left"> Project Name</td> <td> proj_1</td> <td class="optionTitle" align="left"> Device Name</td> <td> impl1: Lattice ECP5UM : LFE5UM_85F</td> </tr>
 <tr> <td class="optionTitle" align="left"> Implementation Name</td> <td> impl1</td> <td class="optionTitle" align="left"> Top Module</td> <td> RAW10toParallel</td> </tr>
  		 </thead> 
 		 <tbody> <tr> <td class="optionTitle" align="left"> Pipelining</td> <td> 1</td> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> </tr>
@@ -34,13 +34,13 @@
          </tr>
   <tr>
   <td class="optionTitle"> (compiler)</td><td>Complete</td>
- <td>95</td>
- <td>89</td>
+ <td>70</td>
+ <td>91</td>
 <td>0</td>
 <td>-</td>
 <td>00m:04s</td>
 <td>-</td>
-<td><font size="-1">10 Jun 2026</font><br/><font size="-2">15:16:44</font></td>
+<td><font size="-1">29 Jun 2026</font><br/><font size="-2">16:07:27</font></td>
 </tr> 
 
  <tr>
@@ -50,15 +50,24 @@
 <td>0</td>
 <td>0m:02s</td>
 <td>0m:02s</td>
-<td>521MB</td>
-<td><font size="-1">10 Jun 2026</font><br/><font size="-2">15:16:48</font></td>
+<td>528MB</td>
+<td><font size="-1">29 Jun 2026</font><br/><font size="-2">16:07:31</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>68</td>
+ <td>2373</td>
+<td>0</td>
+<td>0m:28s</td>
+<td>0m:27s</td>
+<td>619MB</td>
+<td><font size="-1">29 Jun 2026</font><br/><font size="-2">16:08:00</font></td>
 </tr> 
 
 <tr>
-  <td class="optionTitle">Map & Optimize</td>
-  <td>Running</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><tr>
   <td class="optionTitle">Multi-srs Generator</td>
-  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td></td><td class="empty"></td><td class="empty"></td><td><font size="-1">10 Jun 2026</font><br/><font size="-2">15:16:45</font></td> 		</tbody>
+  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td></td><td class="empty"></td><td class="empty"></td><td><font size="-1">29 Jun 2026</font><br/><font size="-2">16:07:28</font></td> 		</tbody>
      </table>
  <br> 
  <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
@@ -66,18 +75,18 @@
 <tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
  </tfoot> 
  <tbody> <tr> 
-<td title ="Total Register bits used" class="optionTitle" align="left">Register bits</td> <td>843</td>
+<td title ="Total Register bits used" class="optionTitle" align="left">Register bits</td> <td>2820</td>
 <td title ="Total I/O cells used" class="optionTitle" align="left">I/O cells</td> <td>64</td>
 </tr>
 <tr> 
 <td title ="Total Block RAMs used" class="optionTitle" align="left">Block RAMs
-(v_ram)</td> <td>32</td>
+(v_ram)</td> <td>44</td>
 <td title ="Total DSPs used" class="optionTitle" align="left">DSPs
 (dsp_used)</td> <td>1</td>
 </tr>
 <tr> 
 <td title ="Total ORCA LUTs used" class="optionTitle" align="left">ORCA LUTs
-(total_luts)</td> <td>1072</td>
+(total_luts)</td> <td>3283</td>
 <td class="optionTitle"></td><td></td></tr> 
 </tbody>
     </table><br>
@@ -87,9 +96,9 @@
  </tfoot> 
 <tbody> 
    <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
-<tr> <td  align="left">RAW10toParallel|CSI2_sens_clk</td><td  align="left">194.9 MHz</td><td  align="left">165.7 MHz</td><td  align="left">-0.905</td></tr> 
-<tr> <td  align="left">RAW10toParallel|clk_i</td><td  align="left">160.1 MHz</td><td  align="left">136.1 MHz</td><td  align="left">-1.102</td></tr> 
-<tr> <td  align="left">System</td><td  align="left">2761.7 MHz</td><td  align="left">2347.4 MHz</td><td  align="left">-0.064</td></tr> 
+<tr> <td  align="left">RAW10toParallel|CSI2_sens_clk</td><td  align="left">142.2 MHz</td><td  align="left">120.9 MHz</td><td  align="left">-1.241</td></tr> 
+<tr> <td  align="left">RAW10toParallel|clk_i</td><td  align="left">167.4 MHz</td><td  align="left">142.3 MHz</td><td  align="left">-1.054</td></tr> 
+<tr> <td  align="left">System</td><td  align="left">3314.6 MHz</td><td  align="left">2816.9 MHz</td><td  align="left">-0.053</td></tr> 
 </tbody> 
  </table>
 <br>

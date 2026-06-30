@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : impl1
 
-# Written on Wed Jun 10 15:16:46 2026
+# Written on Mon Jun 29 16:07:29 2026
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      (none)
@@ -36,9 +36,9 @@ Clock Summary
           Start                             Requested     Requested     Clock        Clock          Clock
 Level     Clock                             Frequency     Period        Type         Group          Load 
 ---------------------------------------------------------------------------------------------------------
-0 -       RAW10toParallel|CSI2_sens_clk     346.9 MHz     2.882         inferred     (multiple)     701  
+0 -       RAW10toParallel|CSI2_sens_clk     229.2 MHz     4.363         inferred     (multiple)     2564 
                                                                                                          
-0 -       RAW10toParallel|clk_i             362.9 MHz     2.755         inferred     (multiple)     308  
+0 -       RAW10toParallel|clk_i             408.0 MHz     2.451         inferred     (multiple)     308  
 =========================================================================================================
 
 
@@ -48,7 +48,7 @@ Clock Load Summary
                                   Clock     Source                  Clock Pin                                         Non-clock Pin     Non-clock Pin       
 Clock                             Load      Pin                     Seq Example                                       Seq Example       Comb Example        
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-RAW10toParallel|CSI2_sens_clk     701       CSI2_sens_clk(port)     fv_i.C                                            -                 pixclk_out.I[0](inv)
+RAW10toParallel|CSI2_sens_clk     2564      CSI2_sens_clk(port)     fv_i.C                                            -                 pixclk_out.I[0](inv)
                                                                                                                                                             
 RAW10toParallel|clk_i             308       clk_i(port)             hdmi_i2c_top_inst.hdmi_i2c_core_inst.scl_s2.C     -                 -                   
 ============================================================================================================================================================

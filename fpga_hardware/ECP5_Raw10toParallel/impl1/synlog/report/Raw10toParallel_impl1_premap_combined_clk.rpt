@@ -6,7 +6,7 @@
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-2 non-gated/non-generated clock tree(s) driving 1009 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 2872 clock pin(s) of sequential element(s)
 3 gated/generated clock tree(s) driving 88 clock pin(s) of sequential element(s)
 0 instances converted, 88 sequential instances remain driven by gated/generated clocks
 
@@ -14,7 +14,7 @@
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     
 --------------------------------------------------------------------------------------------
 @KP:ckid0_0       clk_i               port                   308        i2c_inst.count[28:0]
-@KP:ckid0_4       CSI2_sens_clk       port                   701        pix_red[11:0]       
+@KP:ckid0_4       CSI2_sens_clk       port                   2564       pix_red[11:0]       
 ============================================================================================
 ==================================================================================================== Gated/Generated Clocks ====================================================================================================
 Clock Tree ID     Driving Element                                                  Drive Element Type     Unconverted Fanout     Sample Instance                                      Explanation                               

@@ -1,0 +1,428 @@
+---------------------------------------------------
+Report for cell RAW10toParallel
+   Instance path: RAW10toParallel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    3853.00        100.0
+                                 IOLGC	      49.00        100.0
+                                  LUT4	    3602.00        100.0
+                                 IOREG	         49        100.0
+                                 IOBUF	         64        100.0
+                                PFUREG	       3216        100.0
+                                RIPPLE	        354        100.0
+                                   EBR	         53        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                sa5pht	          1         1.5
+                            image_pipe	          1        17.1
+                               i2c_top	          1        11.7
+                          hdmi_i2c_top	          1         2.8
+             hardware_preprocessing_Z1	          1        17.8
+---------------------------------------------------
+Report for cell hdmi_i2c_top
+   Instance path: RAW10toParallel/hdmi_i2c_top_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     108.00         2.8
+                                  LUT4	     168.00         4.7
+                                PFUREG	         69         2.1
+                                RIPPLE	         13         3.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         hdmi_i2c_core	          1         1.9
+                         hdmi_i2c_ctrl	          1         0.9
+---------------------------------------------------
+Report for cell hdmi_i2c_core
+   Instance path: RAW10toParallel/hdmi_i2c_top_inst/hdmi_i2c_core_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      73.47         1.9
+                                  LUT4	     107.50         3.0
+                                PFUREG	         55         1.7
+                                RIPPLE	         13         3.7
+---------------------------------------------------
+Report for cell hdmi_i2c_ctrl
+   Instance path: RAW10toParallel/hdmi_i2c_top_inst/hdmi_i2c_ctrl_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.53         0.9
+                                  LUT4	      60.50         1.7
+                                PFUREG	         14         0.4
+---------------------------------------------------
+Report for cell i2c_top
+   Instance path: RAW10toParallel/i2c_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     449.00        11.7
+                                  LUT4	     672.00        18.7
+                                PFUREG	        239         7.4
+                                RIPPLE	         77        21.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            i2c_ctrl_0	          1         2.7
+                            i2c_ctrl_1	          1         2.6
+                              i2c_core	          1         2.5
+                            i2c_core_1	          1         2.7
+---------------------------------------------------
+Report for cell i2c_core_1
+   Instance path: RAW10toParallel/i2c_inst/i2c_core2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     103.17         2.7
+                                  LUT4	     159.50         4.4
+                                PFUREG	         65         2.0
+                                RIPPLE	         13         3.7
+---------------------------------------------------
+Report for cell i2c_core
+   Instance path: RAW10toParallel/i2c_inst/i2c_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      94.50         2.5
+                                  LUT4	     152.50         4.2
+                                PFUREG	         65         2.0
+                                RIPPLE	         13         3.7
+---------------------------------------------------
+Report for cell i2c_ctrl_1
+   Instance path: RAW10toParallel/i2c_inst/i2c_ctrl_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     102.00         2.6
+                                  LUT4	     178.50         5.0
+                                PFUREG	         14         0.4
+                                RIPPLE	          4         1.1
+---------------------------------------------------
+Report for cell i2c_ctrl_0
+   Instance path: RAW10toParallel/i2c_inst/i2c_ctrl_inst2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     103.33         2.7
+                                  LUT4	     178.50         5.0
+                                PFUREG	         14         0.4
+                                RIPPLE	          4         1.1
+---------------------------------------------------
+Report for cell image_pipe
+   Instance path: RAW10toParallel/image_pipe_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     658.00        17.1
+                                  LUT4	     479.00        13.3
+                                PFUREG	        873        27.1
+                                RIPPLE	        165        46.6
+                                   EBR	         41        77.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            image_fifo	          1         1.5
+                      gamma_correction	          1         1.1
+debayer_1920_2200_1080_1125_88_44_148_4_5	          1         6.1
+                                 color	          1         4.4
+                blanking_adjustment_Z2	          1         1.1
+      ab_1920_1080_1200_1100_1280_64_4	          1         2.7
+---------------------------------------------------
+Report for cell gamma_correction
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.00         1.1
+                                PFUREG	         87         2.7
+                                   EBR	          9        17.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 Gamma	          1         0.9
+---------------------------------------------------
+Report for cell Gamma
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.00         0.9
+                                PFUREG	         72         2.2
+                                   EBR	          9        17.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        gammaCorrector	          1         0.9
+---------------------------------------------------
+Report for cell gammaCorrector
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.00         0.9
+                                PFUREG	         72         2.2
+                                   EBR	          9        17.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         gamma_core_Z8	          1         0.9
+---------------------------------------------------
+Report for cell gamma_core_Z8
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.00         0.9
+                                PFUREG	         72         2.2
+                                   EBR	          9        17.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        register_12s_0	          1         0.2
+                        register_12s_1	          1         0.2
+                          register_12s	          1         0.2
+                           lut_core_Z7	          1         0.5
+                         ctrl_4s_0s_1s	          1         0.0
+---------------------------------------------------
+Report for cell ctrl_4s_0s_1s
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell lut_core_Z7
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         0.5
+                                PFUREG	         36         1.1
+                                   EBR	          9        17.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+lookuptable_12s_8s_0s_0s_1s_ECP2M_lut1_init_mem_4096s_Z3	          1         0.2
+lookuptable_12s_8s_0s_0s_1s_ECP2M_lut2_init_mem_4096s_Z5	          1         0.2
+lookuptable_12s_8s_0s_0s_1s_ECP2M_lut0_init_mem_4096s_Z1	          1         0.2
+---------------------------------------------------
+Report for cell lookuptable_12s_8s_0s_0s_1s_ECP2M_lut2_init_mem_4096s_Z5
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core/u3_lookuptable
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.2
+                                PFUREG	         12         0.4
+                                   EBR	          3         5.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dp_trueEnnblut2_initsserr1212409612124096p18afc241	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dp_trueEnnblut2_initsserr1212409612124096p18afc241
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core/u3_lookuptable/genblk1.u1_pmi_ram_dp_true
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell lookuptable_12s_8s_0s_0s_1s_ECP2M_lut1_init_mem_4096s_Z3
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core/u2_lookuptable
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.2
+                                PFUREG	         12         0.4
+                                   EBR	          3         5.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dp_trueEnnblut1_initsserr1212409612124096p18afbd3c	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dp_trueEnnblut1_initsserr1212409612124096p18afbd3c
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core/u2_lookuptable/genblk1.u1_pmi_ram_dp_true
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell lookuptable_12s_8s_0s_0s_1s_ECP2M_lut0_init_mem_4096s_Z1
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core/u1_lookuptable
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.2
+                                PFUREG	         12         0.4
+                                   EBR	          3         5.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dp_trueEnnblut0_initsserr1212409612124096p18afb837	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dp_trueEnnblut0_initsserr1212409612124096p18afb837
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/u1_lut_core/u1_lookuptable/genblk1.u1_pmi_ram_dp_true
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell register_12s_1
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/genblk10.u3_register
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.2
+                                PFUREG	         12         0.4
+---------------------------------------------------
+Report for cell register_12s_0
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/genblk9.u2_register
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.2
+                                PFUREG	         12         0.4
+---------------------------------------------------
+Report for cell register_12s
+   Instance path: RAW10toParallel/image_pipe_inst/u_gamma_correction/gamma_inst/gammaCorrector_inst/u1_gamma_core/genblk8.u1_register
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.2
+                                PFUREG	         12         0.4
+---------------------------------------------------
+Report for cell color
+   Instance path: RAW10toParallel/image_pipe_inst/u_color
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     169.00         4.4
+                                  LUT4	      37.00         1.0
+                                PFUREG	        355        11.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   CSC	          1         4.0
+---------------------------------------------------
+Report for cell CSC
+   Instance path: RAW10toParallel/image_pipe_inst/u_color/csc_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     154.00         4.0
+                                  LUT4	      37.00         1.0
+                                PFUREG	        325        10.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        colorspace_top	          1         4.0
+---------------------------------------------------
+Report for cell colorspace_top
+   Instance path: RAW10toParallel/image_pipe_inst/u_color/csc_inst/colorspace_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     154.00         4.0
+                                  LUT4	      37.00         1.0
+                                PFUREG	        325        10.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            colorspace	          1         4.0
+---------------------------------------------------
+Report for cell colorspace
+   Instance path: RAW10toParallel/image_pipe_inst/u_color/csc_inst/colorspace_inst/u1_colorspace
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     154.00         4.0
+                                  LUT4	      37.00         1.0
+                                PFUREG	        325        10.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           csc_core_Z6	          1         4.0
+---------------------------------------------------
+Report for cell csc_core_Z6
+   Instance path: RAW10toParallel/image_pipe_inst/u_color/csc_inst/colorspace_inst/u1_colorspace/u1_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     154.00         4.0
+                                  LUT4	      37.00         1.0
+                                PFUREG	        325        10.1
+---------------------------------------------------
+Report for cell debayer_1920_2200_1080_1125_88_44_148_4_5
+   Instance path: RAW10toParallel/image_pipe_inst/u_debayer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     236.50         6.1
+                                  LUT4	     299.00         8.3
+                                PFUREG	        196         6.1
+                                RIPPLE	         71        20.1
+                                   EBR	         12        22.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       debayer_dpram_2	          1         0.0
+                       debayer_dpram_1	          1         0.0
+                       debayer_dpram_0	          1         0.0
+                         debayer_dpram	          1         0.0
+---------------------------------------------------
+Report for cell debayer_dpram_2
+   Instance path: RAW10toParallel/image_pipe_inst/u_debayer/inst11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell debayer_dpram_1
+   Instance path: RAW10toParallel/image_pipe_inst/u_debayer/inst10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell debayer_dpram_0
+   Instance path: RAW10toParallel/image_pipe_inst/u_debayer/inst01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell debayer_dpram
+   Instance path: RAW10toParallel/image_pipe_inst/u_debayer/inst00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3         5.7
+---------------------------------------------------
+Report for cell ab_1920_1080_1200_1100_1280_64_4
+   Instance path: RAW10toParallel/image_pipe_inst/u_ab
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     104.50         2.7
+                                  LUT4	      85.00         2.4
+                                PFUREG	        137         4.3
+                                RIPPLE	         25         7.1
+---------------------------------------------------
+Report for cell image_fifo
+   Instance path: RAW10toParallel/image_pipe_inst/dcfifo_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      57.50         1.5
+                                  LUT4	      17.00         0.5
+                                PFUREG	         52         1.6
+                                RIPPLE	         47        13.3
+                                   EBR	         20        37.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               sc_fifo	          1         1.5
+---------------------------------------------------
+Report for cell sc_fifo
+   Instance path: RAW10toParallel/image_pipe_inst/dcfifo_inst/sc_fifo_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      57.50         1.5
+                                  LUT4	      17.00         0.5
+                                PFUREG	         52         1.6
+                                RIPPLE	         47        13.3
+                                   EBR	         20        37.7
+---------------------------------------------------
+Report for cell blanking_adjustment_Z2
+   Instance path: RAW10toParallel/image_pipe_inst/U_inst1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.00         1.1
+                                  LUT4	      39.00         1.1
+                                PFUREG	         41         1.3
+                                RIPPLE	         22         6.2
+---------------------------------------------------
+Report for cell hardware_preprocessing_Z1
+   Instance path: RAW10toParallel/u_preprocessing
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     684.83        17.8
+                                  LUT4	     151.00         4.2
+                                PFUREG	       1164        36.2
+                                RIPPLE	         47        13.3
+                                   EBR	         12        22.6
+---------------------------------------------------
+Report for cell sa5pht
+   Instance path: RAW10toParallel/sa5pht
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      58.00         1.5
+                                  LUT4	      61.00         1.7
+                                PFUREG	         48         1.5
+                                RIPPLE	         22         6.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           reset_n_gen	          1         0.1
+                                  losc	          1         0.4
+---------------------------------------------------
+Report for cell reset_n_gen
+   Instance path: RAW10toParallel/sa5pht/reset_n_gen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.1
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell losc
+   Instance path: RAW10toParallel/sa5pht/losc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.50         0.4
+                                  LUT4	      28.00         0.8
