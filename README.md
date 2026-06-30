@@ -69,18 +69,4 @@ Il sistema include un **MUX di output video** gestibile a compile-time:
 3.  Nella scheda **Process**, fare doppio clic su **Synthesize Design** (Synplify Pro) per compilare l'hardware.
 4.  Eseguire **Map Design**, **Place & Route Design** ed infine **Export Files** per generare il file `.bit` per programmare la scheda FPGA tramite il Programmer di Lattice.
 
----
 
-## 🐍 Come rieseguire la generazione HLS (Bambu)
-
-Se si desidera rigenerare l'acceleratore HLS partendo dal codice C++:
-1.  Aprire ed eseguire i notebook nella cartella `model_and_prototypes/` in sequenza.
-2.  Dalla cartella principale del progetto, eseguire lo script di patch dei sorgenti C++:
-    ```bash
-    chmod +x Bambu_output/fix_all.sh
-    ./Bambu_output/fix_all.sh
-    ```
-3.  Lanciare Bambu HLS con i parametri definiti in `Bambu_output/readme.txt`:
-    ```bash
-    ~/bambu.ginevra2.AppImage --top-fname=myproject -I firmware/ac_types --generate-interface=INFER --clock-period=40 --bambu-parameter=inline-max-cost=0 --simulate --generate-tb=myproject_test.cpp --verbosity=4 firmware/myproject.cpp
-    ```
