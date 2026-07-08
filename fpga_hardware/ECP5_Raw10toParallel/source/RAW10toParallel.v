@@ -102,10 +102,11 @@ module RAW10toParallel (
 
     // ==================================================================
     // [INTEGRAZIONE] Contatori pixel nel dominio CSI2_sens_clk
+    // hcnt/vcnt a 12 bit per supportare risoluzioni fino a 4K.
     // ==================================================================
-    reg [11:0] hcnt;      // [FIX] 12-bit per supportare schermi fino a 4K!
-    reg [11:0] vcnt;      // [FIX] 12-bit
-    reg        de_o_prev; 
+    reg [11:0] hcnt;
+    reg [11:0] vcnt;
+    reg        de_o_prev;
 
     always @(posedge CSI2_sens_clk or negedge reset_n) begin
         if (!reset_n) begin
@@ -132,14 +133,19 @@ module RAW10toParallel (
     // ==================================================================
     // [INTEGRAZIONE] Istanza hardware_preprocessing
     //
-    // i_pixel  <- canale verde 12-bit ISP, top 8 bit (MSB-aligned)
-    // i_valid  <- data_enable_o (DE pre-registro, attivo sui pixel validi)
+    // i_pixel       <- canale verde 12-bit ISP, top 8 bit (MSB-aligned)
+    // i_valid       <- data_enable_o gated da in_active_area (attivo sui pixel della ROI)
     // i_frame_start <- impulso 1 ciclo su rising edge vsync
-    // i_ready  <- 1'b1: accettiamo sempre l'output (va in display_buf)
+    // i_ready       <- 1'b1: accettiamo sempre l'output nel display_buf
+    // o_frame_done  <- collegato a pp_frame_done (segnale per LeNet)
     // ==================================================================
-    wire       pp_o_ready;
-    wire       pp_o_pixel;
-    wire       pp_o_valid;
+    wire pp_o_ready;
+    wire pp_o_pixel;
+    wire pp_o_valid;
+    wire pp_frame_done;   // impulso 1 ciclo a fine frame 28x28
+
+    // Area valida 224x224: fuori da questa zona si mostra il segnale ISP
+    wire        in_active_area = (hcnt < 12'd224) & (vcnt < 12'd224);
 
     hardware_preprocessing #(
         .W_224    (224),
@@ -150,65 +156,56 @@ module RAW10toParallel (
     ) u_preprocessing (
         .clk           (CSI2_sens_clk),
         .rst_n         (reset_n),
-        // Input: canale verde 8-bit (bit 11:4 = MSB del dato 12-bit ISP)
         .i_pixel       (green_o[11:4]),
-        .i_valid       (data_enable_o),
+        .i_valid       (data_enable_o && in_active_area),  // [FIX] limitato all'area attiva 224x224
         .o_ready       (pp_o_ready),
         .i_frame_start (frame_start_pulse),
-        // Output: pixel binario 28x28 — accettato sempre
         .o_pixel       (pp_o_pixel),
         .o_valid       (pp_o_valid),
-        .i_ready       (1'b1)
+        .i_ready       (1'b1),
+        .o_frame_done  (pp_frame_done)
     );
 
     // ==================================================================
     // [INTEGRAZIONE] Display buffer 28x28
+    // Raccoglie il flusso seriale o_pixel/o_valid in un registro piatto
+    // da 784 bit. Viene letto combinatoriamente dal MUX HDMI.
+    // Viene azzerato e resincronizzato ad ogni nuovo frame (frame_start_pulse).
     // ==================================================================
-    reg [783:0] display_buf;   // 28*28 = 784 bit
-    reg [9:0]   disp_wr_cnt;   // contatore scrittura (0..783)
+    reg [783:0] display_buf;
+    reg [9:0]   disp_wr_cnt;
 
     always @(posedge CSI2_sens_clk or negedge reset_n) begin
         if (!reset_n) begin
             disp_wr_cnt <= 10'd0;
             display_buf <= 784'b0;
         end else if (frame_start_pulse) begin
-            // [FIX] Sincronizzazione perfetta! Azzera l'indice ad ogni nuovo frame
-            disp_wr_cnt <= 10'd0; 
+            disp_wr_cnt <= 10'd0;
         end else if (pp_o_valid) begin
             display_buf[disp_wr_cnt] <= pp_o_pixel;
             disp_wr_cnt <= (disp_wr_cnt == 10'd783) ? 10'd0 : disp_wr_cnt + 10'd1;
         end
-    end    
-	
-	// ==================================================================
-    // [INTEGRAZIONE] Indirizzo di lettura del display buffer
-    //
-    // Upscale 8x: ogni pixel 28x28 copre un blocco 8x8 nell'immagine
-    // originale 224x224. hcnt[7:3] = hcnt/8 (colonna 28x28, 0..27)
-    //                    vcnt[7:3] = vcnt/8  (riga    28x28, 0..27)
-    //
-    // disp_addr = row*28 + col, calcolato come shifts+adds da Synplify.
-    // In-range: solo per hcnt < 224 e vcnt < 224 (area 224x224).
+    end
+
     // ==================================================================
-    wire [4:0] disp_col  = hcnt[7:3];             // 0..27
-    wire [4:0] disp_row  = vcnt[7:3];             // 0..27
-    wire [9:0] disp_row10 = {5'b0, disp_row};     // estendi a 10 bit
-    wire [9:0] disp_addr  = (disp_row10 * 10'd28) + {5'b0, disp_col};
+    // [INTEGRAZIONE] Lettura display buffer con upscale 8x
+    //
+    // Ogni pixel 28x28 copre un blocco 8x8 nell'immagine 224x224.
+    //   col_28 = hcnt / 8 = hcnt[7:3]
+    //   row_28 = vcnt / 8 = vcnt[7:3]
+    //   addr   = row_28 * 28 + col_28
+    //
+    // Fuori dall'area 224x224: passthrough ISP (bordi invariati).
+    // ==================================================================
+    wire [4:0] disp_col   = hcnt[7:3];
+    wire [4:0] disp_row   = vcnt[7:3];
+    wire [9:0] disp_addr  = ({5'b0, disp_row} * 10'd28) + {5'b0, disp_col};
 
-    // Pixel dal display buffer (lettura combinatoria)
-    wire       pp_disp_pix = display_buf[disp_addr];
-
-    // Area valida 224x224: fuori da questa zona si mostra il segnale ISP
-	wire        in_active_area = (hcnt < 12'd224) & (vcnt < 12'd224);
-    // Pixel da mostrare se MUX = preprocessing:
-    // bianco (12'hFFF) o nero (12'h000) in base al bit binario
-    wire [11:0] pp_channel = {12{pp_disp_pix}};   // 12'hFFF o 12'h000
+    wire       pp_disp_pix  = display_buf[disp_addr];
+    wire [11:0] pp_channel  = {12{pp_disp_pix}};  // 12'hFFF bianco o 12'h000 nero
 
     // ==================================================================
     // Registrazione uscita video verso HDMI (MUX incluso)
-    //
-    // generate if/else su localparam: Synplify rimuove il ramo morto
-    // staticamente a compile-time (zero overhead a runtime).
     // ==================================================================
     always @ (posedge CSI2_sens_clk or negedge reset_n)
         if (!reset_n) begin
@@ -224,9 +221,6 @@ module RAW10toParallel (
             data_enable <= data_enable_o;
 
             if (MUX_SEL_PREPROCESSING) begin
-                // ---- Modalita' PREPROCESSING ----
-                // Nell'area 224x224: mostra l'immagine binaria 28x28 upscalata
-                // Fuori dall'area 224x224: passthrough ISP (per risoluz. > 224)
                 if (in_active_area) begin
                     pix_red   <= pp_channel;
                     pix_green <= pp_channel;
@@ -237,8 +231,6 @@ module RAW10toParallel (
                     pix_blue  <= blue_o;
                 end
             end else begin
-                // ---- Modalita' PASSTHROUGH (default) ----
-                // Demo originale Lattice, nessuna modifica al segnale HDMI
                 pix_red   <= red_o;
                 pix_green <= green_o;
                 pix_blue  <= blue_o;
