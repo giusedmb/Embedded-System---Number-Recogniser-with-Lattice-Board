@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="NumberRecogniser_Integration" device="LFE5UM-85F-8BG756C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="Full Integration: ISP + PreProcessing + LeNet-5 Bambu"
+                    synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="top_integration" top="top_integration"/>
+
+        <!-- ================================================================
+             TOP-LEVEL INTEGRATION
+             ================================================================ -->
+        <Source name="../../fpga_hardware/integration/top_integration.v"
+                type="Verilog" type_short="Verilog">
+            <Options top_module="top_integration"/>
+        </Source>
+
+        <!-- ================================================================
+             HARDWARE PRE-PROCESSING (ottimizzato, bug corretti)
+             ================================================================ -->
+        <Source name="../../fpga_hardware/integration/hardware_preprocessing_opt.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             CDC ASYNC FIFO (148.5 MHz → 25 MHz)
+             ================================================================ -->
+        <Source name="../../fpga_hardware/integration/cdc_async_fifo.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             LENET INPUT BUFFER + HANDSHAKE
+             ================================================================ -->
+        <Source name="../../fpga_hardware/integration/lenet_input_buffer.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             LENET OUTPUT CAPTURE + ARGMAX
+             ================================================================ -->
+        <Source name="../../fpga_hardware/integration/lenet_output_capture.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             BAMBU LENET-5 (generato da hls4ml + Bambu HLS)
+             ATTENZIONE: file grande ~66 MB, sintesi lenta
+             ================================================================ -->
+        <Source name="../../Bambu_output/12_5/myproject.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             LIBRERIA PRIMITIVI PANDA/BAMBU
+             ================================================================ -->
+        <Source name="../../Bambu_output/12_5/panda_libtech.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             PIPELINE ISP (Lattice originale, invariata)
+             ================================================================ -->
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/ab.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/blanking_adjustment.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/debayer.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/gamma_correction.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/hdmi_i2c_core.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/hdmi_i2c_ctrl.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/hdmi_i2c_top.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/i2c_core.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/i2c_ctrl.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/i2c_top.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/image_pipe.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/color.v"
+                type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             CLARITY IP (Lattice SBX: FIFO, Gamma, DP-RAM, CSC)
+             ================================================================ -->
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/clarity/dp_ram/dp_ram.sbx"
+                type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/clarity/Gamma/Gamma.sbx"
+                type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/clarity/image_fifo/image_fifo.sbx"
+                type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../../fpga_hardware/ECP5_Raw10toParallel/source/clarity/CSC/CSC.sbx"
+                type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+
+        <!-- ================================================================
+             CONSTRAINTS (LPF) — stesse pin del progetto originale
+             ================================================================ -->
+        <Source name="NumberRecogniser_Integration.lpf"
+                type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+
+    <Strategy name="Strategy1" file="NumberRecogniser_Integration.sty"/>
+</BaliProject>

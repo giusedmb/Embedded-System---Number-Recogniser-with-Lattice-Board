@@ -1,0 +1,46 @@
+## ============================================================================
+## FILE    : NumberRecogniser_Integration.sty
+## PROJECT : ECP5 Number Recogniser — Synplify Strategy
+## DEVICE  : LFE5UM-85F-8BG756C
+##
+## Opzioni Synplify-Pro ottimizzate per:
+## - Inferenza corretta degli EBR (RAM block)
+## - Gestione shift register line-buffer > 400 bit
+## - Sintesi del file Bambu da 66 MB (timeout esteso)
+## ============================================================================
+
+## Synthesis options
+set_option -technology LATTICE-ECP5UM
+set_option -part LFE5UM-85F
+set_option -package BG756
+set_option -speed_grade -8
+
+## Top-level module
+set_option -top_module top_integration
+
+## Resource sharing e ottimizzazioni
+set_option -resource_sharing true
+set_option -symbolic_fsm_compiler true
+set_option -safe_case true
+
+## RAM inference: CRITICO per mappare gli array BRAM su EBR Lattice
+## (evita che Synplify usi SLICE FF per array grandi)
+set_option -use_ram_when_possible 1
+
+## Shift register inference: lascia che Synplify usi SRL (shift reg in SLICE)
+## per i line-buffer (lb_dil1 da 449 bit non entrano in un singolo EBR)
+set_option -pack_registers auto
+
+## Timing goal
+set_option -frequency_driven_logic 1
+
+## Report
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+## Verbosity
+set_option -verbose 1
+set_option -max_loop_limit 2000
+
+## Timeout esteso per il file Bambu (1M linee)
+set_option -run_name impl1
